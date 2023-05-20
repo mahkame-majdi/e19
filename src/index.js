@@ -11,6 +11,7 @@ import { filimoBox3 } from './filimoBox';
 import { popularMovies } from './movieItem';
 import { popularMovies2 } from './movieItem';
 import { popularMovies3 } from './movieItem';
+import "./index.css";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
