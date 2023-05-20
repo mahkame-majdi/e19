@@ -14,7 +14,7 @@ export default function Movielist(props){
         })
     }
     return (
-        <div className="vertical-padding">
+        <div className="vertical-padding filimo-box">
             <div className="container">
                 <h1 className="title">{props.data.title}</h1>
                 <ul>

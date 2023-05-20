@@ -1,19 +1,15 @@
-ul{
+.filimo-box ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     gap: 40px;
 }
-ul li {
-    position: relative;
-    overflow: hidden;
-}
-ul li img {
+.filimo-box ul li img {
     width: 100%;
     border: #000 solid 7px;
     transition: transform .2s ease-in-out;
 }
-ul li:hover img{
+.filimo-box ul li:hover img{
     transform: scale(1.2);
 }

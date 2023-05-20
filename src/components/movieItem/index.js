@@ -13,7 +13,7 @@ export default function MovieItem(props){
         })
     }
     return (
-        <div className="vertical-padding">
+        <div className="vertical-padding movie-item">
             <div className="container">
                 <h1 className="title">{props.data.title}</h1>
                 <ul>
